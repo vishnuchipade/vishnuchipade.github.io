@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vishnu S Chipade IITK</title>
+<link href="WebStyle1.css" rel="stylesheet" type="text/css">
+<script src="AllScripts.js"></script>
+<style type='text/css'>
+body
+  {color:#000000;
+   /* background-image:url("brick.jpg");sky1.gif*/
+    background-color: #FFFFFF;}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="head">
+<div class="iitklogo">
+<a href="http://www.iitk.ac.in/"><img src="umichlogo.png" style=" background-color:#EEEEEE ;outline:2px solid white;outline-offset:2px;"></a>
+</div>
+<div class="title">
+<br>&emsp; &emsp; &ensp; <font size="7">Vishnu S. Chipade</font>
+</div><br>
+
+</div>
+<div class="contain">
+
+<div class="menu" >
+<a class="active" href="index.html"><div class="menu-item active"><font size="4">Home</font></div></a>
+<a href="academics.html"><div class="menu-item"><font size="4%">Academics</font></div></a>
+<a href="research.html"><div class="menu-item"><font size="4%">Research</font></div></a>
+<a href="projects.html"><div class="menu-item"><font size="4%">Projects</font></div></a>
+<a href="activities.html"><div class="menu-item"><font size="4%">Activities</font></div></a>
+<a href="Vishnu_Resume.pdf" target="_blank"><div class="menu-item"><font size="4%">Resume</font></div></a>
+<a href="contact.html"><div class="menu-item"><font size="4%">Contact</font></div></a>
+<div class="quote"><font size="3"><i>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</i>
+ </br><div class="quote_author">- Aristotle</div></font>
+</div>
+</div>
+
+<div class="content">
+<div style="width:60%; float:left; margin-left:2%;margin-top:2%;"><font size="4"> <b>Welcome,</b><br> &nbsp; &nbsp; 
+<p>I am a first year PhD student in Aerospace Engineering department at the University of Michigan.
+Currently I am working on development of robust adaptive control for a variable pitch quadrotor for aerial package delivery as 
+a part of my masters thesis.</p><br>
+<p> I am an ardent lover of autonomous robots and autonomous Unmanned Aerial vehicles(UAVs) in particular.
+ I wish to pursue a research career in the field of autonomous control for UAVs. </p><br>
+<p>I love playing cricket, listening to music, watching movies, reading books and travelling places. 
+Apart from engineering, subjects like Psychology, Sociology, Cosmology, and Astrophysics also attract my interest at times;
+if you are interested, we can discuss them over a cup of coffee. &#9786;</p> <br>
+<p>Feel free to navigate through this webpage to know more.......<font size="5">&#9786;</font></p></font>
+</div>
+<div style="width:32%; float:left;margin-left:2%; margin-top:2%; margin-bottom:2%; background-color:#E5E5E5;  border-radius:5px;">
+<img src="vishnu.jpg" style="margin:5% 5% 5% 5%; outline:2px solid black;outline-offset:2px; width:90%;">
+<center><font size="3px">Email: vishnuc@iitk.ac.in<br>
+Phone: +91 8953453552 </font></center>
+<br>
+</div>
+</div><br>
+
+<div class="footer"><center><b>Copyright@UMich, 2017</b></center>
+</div>
+
+</div>
+</div>
+</body></html>
+ 

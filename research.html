@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vishnu S. Chipade - Research </title>
+<link href="WebStyle1.css" rel="stylesheet" type="text/css" media="all">
+<script src="AllScripts.js"></script>
+<style type='text/css'>
+body
+  {color:#000000;
+   /* background-image:url("brick.jpg");sky1.gif*/
+    background-color: #FFFFFF;}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="head">
+<div class="iitklogo">
+<a href="https://www.umich.edu/"><img src="umichlogo.png" style=" background-color:#EEEEEE ;outline:2px solid white;outline-offset:2px;"></a>
+</div>
+<div class="title">
+<br>&emsp; &emsp; &ensp; <font size="7">Research</font>
+</div><br>
+
+</div>
+<div class="contain">
+
+<div class="menu" >
+<div class="menu-item">Vishnu S. Chipade</div>
+<a class="active" href="index.html"><div class="menu-item">Home</div></a>
+<a href="education.html"><div class="menu-item">Education</div></a>
+<a href="research.html"><div class="menu-item active">Research</div></a>
+<a href="publications.html"><div class="menu-item">Publications</div></a>
+<a href="activities.html"><div class="menu-item">Activities</div></a>
+<a href="Vishnu_Chipade_Resume.pdf" target="_blank"><div class="menu-item">Resume</div></a>
+<a href="Vishnu_Chipade_CV.pdf" target="_blank"><div class="menu-item">Curriculum Vitae</div></a>
+<a href="contact.html"><div class="menu-item">Contact</div></a>
+<div class="quote"><i>"To myself I am only a child playing on the beach, while vast oceans of truth lie undiscovered before me."</i>
+ </br><div class="quote_author">- Sir Issac Newton </div>
+</div>
+</div>
+
+
+<div class="content">
+<br>
+<div class="PageEntryTitle" onclick="ShowResearchInterests()"><font size="5">&nbsp Research Interests</font></div>
+<div id="ResearchInterests" style="display:block" class="PageEntry">
+<div class="Project">
+My research interests are:</font><br>
+
+<ul>
+<li>Control design, Decision making and Motion planning for Autonomous Aerial Systems
+<li>Computer vision, Machine learning and their applications in aerial Robotics
+<li>Dynamics and Design of rotary wing based aerial vehicles
+</ul>
+
+</div>
+</div>
+
+
+<div class="PageEntryTitle" onclick="ShowResearchExperience()"><font size="5">&nbsp Research Experience</font></div>
+<div id="ResearchExperience" style="display:block" class="PageEntry">
+
+<div class="Project">
+<font size="4"> PhD thesis <br><b>Multi-agent Motion Planning in Presence of Adversaries</b></font><br>
+<i>Advisor: <a href="http://www-personal.umich.edu/~dpanagou/", style="color:#0000FF;">Prof. Dimitra Panagou </a>, University of Michigan &emsp; (Sep 2017 - till date)</i><br><br>
+As part of my Ph.D research, I have been developing control algorithms for a team of defending robots that are protecting a safety-critical area from attacks by adversarial robots. I have been studying herding and interception strategies for the defending team for class of attacking behaviors by the adversarial team. The developed algorithms lie at the intersection of game theory (non-zero sum games), optimal control, finite-time stability, combinatorial optimization and machine learning techniques. <br>
+.
+
+
+<div class="Project">
+<font size="3"><b>1) 'StringNet Herding' approach to herd an adversarial swarm</b></font><br>
+<div class="ProjectContent">
+<ul>
+<li> 'StringNet' is a closed formation of barriers formed by the defenders around the adversarial swarm in order to constraint the and control the attackers' motion.
+</li>
+<li> A combination of open-loop, near time-optimal controllers (that
+result in forming the defenders’ formation), and statefeedback controllers with finite-time convergence guarantees under bounded inputs (that guide the formation
+around attackers and towards the safe area) synthesize
+the herding strategy.
+</li>
+</ul>
+
+References:
+<ol>
+<li><b>Chipade, V. S.</b>, Panagou D.,  "<a href="http://www-personal.umich.edu/~vishnuc/publications/TRO_2021_StringNet_Herding.pdf" target="_blank"  style="color:#0000FF;"> Multi-Agent Planning and Control for Swarm Herding in 2D Obstacle Environments under Bounded Inputs</a>," IEEE Transactions on Robotics, 38(2), pp.-, May 2021.<br><br>
+</li>
+<li><b>Chipade, V. S.</b>, Panagou D., "<a href="https://ieeexplore.ieee.org/abstract/document/9029573" target="_blank"  style="color:#0000FF;">Herding an Adversarial Swarm in an Obstacle Environment</a>," 58th IEEE Conference on Decision on Control, Nice, France, December 2019.<br><br>
+</li> 
+</ol>
+MATLAB Simulations:<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F53Fz44rtlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Gazebo simulation:<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HswpnNdkuNY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Experimental demonstration:<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rpvf0ogkpmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="ProjectImage">
+<img src="StringNet.PNG">
+</div>
+<div class="ProjectImage">
+<img src="Herding_flowchart.png">
+</div>
+
+</div>
+
+<div class="Project">
+<font size="3"><b> 2) 3D-StringNet Herding</b></font><br>
+<div class="ProjectContent">
+<ul>
+<li> '3D-StringNet Herding' is an extension of our 2D 'StringNet Herding' approach.
+</li>
+<li> We provide a systematic approach to design three types of 3D formations of triangular net-like barriers that are used in the '3D StringNet Herding' approach so that minimum number of defenders are employed. 
+</li>
+</ul>
+
+Reference:
+<ol>
+<li>Zhang W., <b>Chipade, V. S.</b>, Panagou D., "<a href="" target="_blank"  style="color:#0000FF;">Herding an Adversarial Swarm in Three-dimensional Spaces</a>," (under review).<br><br>
+</li>
+</ol>
+MATLAB Simulations:<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lAs94WE4im8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="ProjectImage">
+<img src="3D_StringNet_Herding.PNG">
+</div>
+<div class="ProjectImage">
+<img src="3D_StringNet_Formations.PNG">
+</div>
+
+</div>
+
+<div class="Project">
+<font size="3"><b> 3) Multi-Swarm Herding</b></font><br>
+<div class="ProjectContent">
+<ul>
+<li> We develop a clustering-based assignment algorithm to herd swarms of attackers in the event when all attackers do not stay together but rather split into smaller sub-swarms as they sense the defenders.
+</li>
+<li> We use ‘Density-based Spatial Clustering of Application with Noise (DBSCAN)’ algorithm to identify the spatially distributed swarms of the attackers and the defenders are then assigned to each identified swarm of attackers by solving a mixed-integer quadratically constrained program (MIQCP).
+</li>
+</ul>
+
+References:
+<ol>
+<li><b>Chipade, V. S.</b>, Marella V. S. A., Panagou D., "Aerial Swarm Defense by StringNet Herding: Theory and Experiments," (under review)<br><br>
+</li>
+<li><b>Chipade, V. S.</b>, Panagou D., "<a href="https://ieeexplore.ieee.org/abstract/document/9029573" target="_blank"  style="color:#0000FF;">Multi-Swarm Herding: Protecting against Adversarial Swarms</a>," 59th IEEE Conference on Decision on Control, Jeju Island, Republic of Korea, December 2020.<br><br>
+</li> 
+</ol>
+MATLAB Simulations:<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U3MvcVoQdp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="ProjectImage">
+<img src="clusterAssignment.jpg">
+</div>
+<div class="ProjectImage">
+<img src="multiSwarmHerdingFlowchart.jpg">
+</div>
+
+</div>
+
+<div class="Project">
+<font size="3"><b> 4) Inter-Defender Collision Aware Interception Strategy against Multiple Attackers</b></font><br>
+<div class="ProjectContent">
+<ul>
+<li> We developed best-against worst time-optimal strategy for each defender against each of the attacker</li>
+<li> We then assign the defenders to intercept attackers by solving a mixed-integer quadratic program which finds assignment of the defenders to the attackers that minimizes the chances of the defenders colliding with other defenders on their optimal trajectories corresponding to the assigned attacker</li>
+<li> The control action of the defenders are further modified using control barrier function based correction term to avoid the collisions among the defenders when the collision-aware assignment is not sufficient to avoid the inter-defender collisions.
+</ul>
+
+References:
+<ol>
+<li><b>Chipade, V. S.</b>, Panagou D., "<a href="http://www-personal.umich.edu/~vishnuc/publications/IDCAIS_under_review.pdf" target="_blank"  style="color:#0000FF;">IDCAIS: Inter-Defender Collision-Aware Interception Strategy
+against Multiple Attackers</a>," (under review) <br><br>
+</li> 
+</ol>
+</div>
+
+<div class="ProjectImage">
+<img src="IDCAIS_1.PNG">
+</div>
+<div class="ProjectImage">
+<img src="IDCAIS_2.PNG">
+</div>
+
+</div>
+
+</div>
+
+<div class="Project">
+<font size="4"> Masters thesis <br><b>Advanced Flight Dynamic Modelling and Adaptive Control of Variable Pitch Quadrotor</b></font><br>
+<i>Advisors: <a href="http://www.iitk.ac.in/aero/abhishek/", style="color:#0000FF;">Prof. Abhishek</a> and <a href="http://www.iitk.ac.in/aero/mangal/", style="color:#0000FF;">Prof. Mangal Kothari </a>, IIT Kanpur &emsp; (May 2016 - May 2017)</i>
+
+<div class="ProjectContent">
+<ul>
+<li> Developed an advanced
+flight dynamic model describing generalized motion of the variable pitch quadrotor using Blade Element Momentum Theory (BEMT) and Drees’ inflow
+model for non-uniform induced velocity field.
+</li>
+<li>
+Validated the thrust and torque predicted by
+the aerodynamic model (rotor dynamics) used within the advanced flight dynamic analysis through experimental results
+</li>
+<li>
+Developed two robust non-linear control algorithms namely integral
+backstepping and adaptive backstepping to control a variable pitch quadrotor in the event of suddent mass change in package delivery applications.
+</li>
+<li>
+Added a control allocation loop in the control architecture to generate blade pitch inputs, which tackles
+non-linearities involved in the mapping of forces and moments to thrust coefficients.
+</li>
+</ul><br>
+Reference : Chipade V. S.</b>, Abhishek A. and Kothari M., "<a href="https://arc.aiaa.org/doi/pdf/10.2514/6.2018-1763" target="_blank"  style="color:#0000FF;"> Advanced Flight Dynamic Modelling of Variable Pitch Quadrotor</a>," 
+ In 2018 AIAA Atmospheric Flight Mechanics Conference (p. 1763).
+</div>
+<div class="ProjectImage">
+<img src="Advanced_BEMT.png">
+</div>
+<div class="ProjectImage">
+<img src="VP_Quad_Control_Block.PNG">
+</div>
+</div>
+
+<div class="Project">
+<b><font size="4">Design of a quadrotor biplane vertical takeoff and landing (VTOL) UAV</font></b><br>
+<i>Project under, <a href="http://www.iitk.ac.in/aero/abhishek/", style="color:#0000FF;">Prof. Abhishek</a>, IIT Kanpur &emsp; (Jan-Apr 2015, May 2016-present)</i>
+
+<div class="ProjectContent">
+<ul>
+<li> Proposed a novel design of a hybrid UAV which combines helicopter characteristics of a quadrotor
+and fixed wing characteristics of a biplane and performed a preliminary design calculations for the design.
+ This design is very well suited for <b> Autonomous Aerial Package Delivery</b>
+<li> Used a modified blade element momentum theory (BEMT) for performance calculations for the proprotor
+design. This theory takes into account the effect of large inflow angles and swirl velocity component
+<li> Designed wing parameters for biplane wing configuration using a typical monoplane design approach
+and scaled the parameters to biplane configuration keeping the total area same and optimizing the
+benefits of biplane configuration
+<li> Designed other aspects of the design such as power plant selection i.e. Gasoline engine selection,
+transmission mechanism for transferring power from engines to the rotors, Avionics kit etc.
+<li>Fabricated a proof of concept vehicle and tested it in hover flight mode
+<li> Received appreciation from <b>Hindustan Aeronautics Limited (HAL) </b> for the design work which was
+Submitted to 'Dr. V.M.Ghatage Memorial Competition for pioneering ideas in Aerospace' organised
+by HAL. The project is shortlisted by HAL for funding its development to a finished product
+</ul><br>
+Reference: <b>Chipade, V. S.</b>, Abhishek A., Kothari M., Chaudhari, R., "<a href="https://www.sciencedirect.com/science/article/pii/S0957415818301351" target="_blank"  style="color:#0000FF;">Systematic design methodology for development and flight
+ testing of a variable pitch quadrotor biplane VTOL UAV for payload delivery</a>," Mechatronics, Vol. 55, pp. 94-114, Aug 2018.
+</div>
+<div class="ProjectImage">
+<img src="Quad_Biplane.jpg">
+</div>
+</div>
+
+<div class="Project">
+
+<font size="4"> Undergraduate thesis <br><b>Motion Planning for Variable Pitch (VP) Quadrotor using Feedback Controller based Information RoadMap (FIRM)</b></font><br>
+<i>Mentor - <a href="http://www.iitk.ac.in/aero/abhishek/", style="color:#0000FF;">Prof. Abhishek</a>, IIT Kanpur     &emsp;   (Jul 2015-Apr 2016)</i>
+<br>
+<div class="ProjectContent">
+<ul>
+<li>Implemented a motion planning algorithm which generalizes the Probabilistic RoadMap (PRM) framework to Feedback controller based
+Information-state RoadMap (FIRM) that takes into account motion and sensing uncertainty in planning.
+<li> The FIRM is a roadmap constructed in belief space, where its nodes are small subsets of belief space and the edges of
+FIRM are Markov chains in belief space induced by feedback controllers.
+<li> Constructed FIRM by first sampling PRM nodes and associating FIRM nodes to these PRM nodes and used Linear
+quadratic Gaussian (LQG = LQR + Kalman filter) controller to stabilize the quadrotor from one node to another.
+<li> Created a dense roadmap so that the stabilizing controllers can be directly used as edge controllers and
+assigned a cost to each of these edges which is calculated based on the estimation error during belief propagation
+and the stabilization time.
+<li> Calculated transition probabilities using a particle based approach and simulated optimal control policy search by solving 
+dynamic programming.
+</ul><br>
+</div>
+<div class="ProjectImage">
+<img src="FIRM_VP_Quad.PNG">
+</div>
+</div>
+
+<div class="Project">
+
+<font size="4">Summer Research Internship<br>
+IITK-TAMU internship exchange program 2015<br><b>Graph based motion planning for Quadrotor Helicopter</b></font><br>
+<i>Mentor - <a href="http://edplab.org/people/", style="color:#0000FF;">Prof. Suman Chakravorty</a>, Texas A&M University, College Station &emsp; (May-Jul 2015)</i>
+<br>
+<div class="ProjectContent">
+<ul>
+<li> Implemented a roadmap based motion planning algorithm for quadrotor in which a roadmap is generated
+ by sampling random points from a configuration space for quadrotor i.e. 3d position coordinates and heading angle
+<li> Connected these points called nodes by edges generated by invoking LQR controllers corresponding
+to these nodes
+<li> Solved a shortest path problem, while avoiding obstacles (in this case simple cubical obstacles), 
+over this map by using dynamic programming and demonstrated the results through simulations.
+
+<li> Developed simulations for some other stochastic controllers such as time varying LQR, stationary LQG, time varying
+LQG controller
+</ul><br>
+</div>
+<div class="ProjectImage">
+<img src="Graph_motion_planning.png">
+</div>
+</div>
+
+</div>
+
+
+</div><br>
+
+<div class="footer"><center><b>Last updated: Jan 2022</b></center>
+</div>
+
+</div>
+</div>
+</body></html>
+ 

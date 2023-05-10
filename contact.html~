@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="WebStyle1.css" rel="stylesheet" type="text/css">
+<link rel='stylesheet prefetch' href='http:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+
+<style type='text/css'>
+body
+  {color:#000000;
+    /*background-image:url("vishnu.jpg");*/
+    background-color: #FFFFFF;}
+
+
+wrapper,.copyright {
+	padding: 20px;
+	text-align: center;
+}
+hr{
+	margin: 30px 20px;
+	border-top:2px solid #1C1E26 ;
+	border-bottom:2px solid #38404D;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 20px;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;} 
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+.social-icons .fa-skype{background-color:#01AEF2;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+
+<body>
+<div class="container">
+<div class="head">
+<div class="iitklogo">
+<a href="http://www.iitk.ac.in/"><img src="umichlogo.jpg" style=" background-color:#EEEEEE ;outline:2px solid white;outline-offset:2px;"></a>
+</div>
+<div class="title">
+<br>&emsp; &emsp; &ensp; <font size="7">Contact</font>
+</div><br>
+
+</div>
+
+<div class="contain">
+
+<div class="menu" >
+<div class="menu-item"><font size="4">Vishnu S. Chipade</font></div>
+<a class="active" href="index.html"><div class="menu-item"><font size="4">Home</font></div></a>
+<a href="academics.html"><div class="menu-item"><font size="4">Academics</font></div></a>
+<a href="research.html"><div class="menu-item"><font size="4">Research</font></div></a>
+<a href="projects.html"><div class="menu-item"><font size="4">Projects</font></div></a>
+<a href="activities.html"><div class="menu-item"><font size="4">Activities</font></div></a>
+<a href="Vishnu_Resume.pdf"><div class="menu-item"><font size="4">Resume</font></div></a>
+<a href="contact.html"><div class="menu-item active"><font size="4">Contact</font></div></a>
+<div class="quote"><font size="3"><i>"Great genius takes shape by contact with another great genius, but, less by assimilation than by friction."</i>
+ </br><div class="quote_author">- Heinrich Heine</div></font>
+</div>
+</div>
+
+<div class="content" >
+<div class="contact_l">
+
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 42.299417, lng: -83.728397};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGi7_61rQ54MDfCLTmsqzOaG1VSUK5ERo&callback=initMap">
+    </script>
+
+<b><font size="4">Current Address</font></b><br>
+1980, Traver Rd, Apt 209<br>Ann Arbor, MI, USA<br>48105<br>
+Mobile <font size="5">&#x1F581;</font>: +1 (734)-747-3943<br>
+
+Email <font size="5">&#x1F584;</font>:
+vishnuc@umich.edu, vishnuschipade@gmail.com<br><br>
+You can also connect with me on:<br>
+
+<div class="Social_Media">
+<ul class="social-icons icon-circle list-unstyled list-inline"> 
+	    <li> <span title = "Come on! everyone is on Facebook &#9786;"><a rel="nofollow" rel="noreferrer"href="https://www.facebook.com/vishnu.chipade"><i class="fa fa-facebook"></i></a></li> 
+	    <li> <span title = "Email is preferred instead &#x1F609"><a rel="nofollow" rel="noreferrer"href="https://plus.google.com/u/0/110375256533906118103"><i class="fa fa-google-plus"></i></a></li> 
+	    <li> <span title = "Why not a face to face talk? &#9786;"><a rel="nofollow" rel="noreferrer"href="skype:vishnuchipade"><i class="fa fa-skype"></i></a></li>
+           <li> <span title = "Let's be professional &#9786;"><a rel="nofollow" rel="noreferrer"href="https://in.linkedin.com/in/vishnu-chipade-91a741bb"><i class="fa fa-linkedin"></i></a></li>
+ </ul>
+</div>
+
+</div>
+
+<div class="feedback">
+Should you have any comments or suggestions please email me:<br>
+<form action="feedback_form.php" method="post">
+   Name: <input type="text" name="name" placeholder = "Your Name" style="width:100%;"> 
+   <br>
+   E-mail: <input type="text" name="email" placeholder = "Your Email" style="width:100%;">
+   <br>
+   Website: <input type="text" name="website" placeholder = "Your Website: Please leave blank if you do not have one!" style="width:100%;">
+   <br>
+   Message: <textarea name="message" rows="5" cols="40" placeholder = "Write your message" style="width:100%;" ></textarea>
+   <br>
+   <input class="Submit_Button" type="submit" name="submit" value="Send" style="color:#FFFFFF; width:75px; text-align:center;">
+
+        
+</form><br/>
+</div>
+
+</div><br>
+
+<div class="footer"><center><b>Copyright@UMich, 2017</b></center>
+</div>
+
+</div>
+</div>
+</body></html>
+ 
