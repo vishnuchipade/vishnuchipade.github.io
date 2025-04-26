@@ -1,68 +1,1212 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Vishnu S. Chipade </title>
-<link href="WebStyle1.css" rel="stylesheet" type="text/css">
-<script src="AllScripts.js"></script>
-<style type='text/css'>
-body
-  {color:#000000;
-   /* background-image:url("brick.jpg");sky1.gif*/
-    background-color: #FFFFFF;}
+<html lang="en">
 
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishnu S. Chipade</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="icon" href="./assets/images/logo6.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="container">
-<div class="head">
-<div class="iitklogo">
-<a href="https://www.umich.edu/"><img src="umichlogo.png" style=" background-color:#EEEEEE ;outline:2px solid white;outline-offset:2px;"></a>
-</div>
-<div class="title">
-<br>&emsp; &emsp; &ensp; <font size="7">Vishnu S. Chipade</font>
-</div><br>
+  <!--
+    - #MAIN
+  -->
 
-</div>
-<div class="contain">
+  <main>
 
-<div class="menu" >
-<a class="active" href="index.html"><div class="menu-item active">Home</div></a>
-<a href="education.html"><div class="menu-item">Education</div></a>
-<a href="research.html"><div class="menu-item">Research</div></a>
-<a href="publications.html"><div class="menu-item">Publications</div></a>
-<a href="activities.html"><div class="menu-item">Activities</div></a>
-<a href="Vishnu_Chipade_Resume.pdf" target="_blank"><div class="menu-item">Resume</div></a>
-<a href="Vishnu_Chipade_CV.pdf" target="_blank"><div class="menu-item">Curriculum Vitae</div></a>
-<a href="contact.html"><div class="menu-item">Contact</div></a>
-<div class="quote"><font size="3"><i>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</i>
- </br><div class="quote_author">- Aristotle</div></font>
-</div>
-</div>
+    <!--
+      - #SIDEBAR
+    -->
 
-<div class="content">
-<div style="width:67%; float:left; margin-left:2%;margin-top:2%;"><b>Welcome,</b><br> &nbsp; &nbsp; 
-<p>I am Vishnu Chipade, a PhD candidate in Aerospace Engineering department at the University of Michigan.
-Currently, I am working as Graduate Student Research Assistant in the <a href="http://www-personal.umich.edu/~dpanagou/labs/index.html", style="color:#0000FF;", target="_blank"> Distributed Aerospace Systems and Control </a> Laboratory at the University of Michigan.
-</p><br>
-<p> My research interests are in the areas of motion planning and decision making for multi-agent systems, particularly aerial robots. I am also interested in applications of computer vision in aerial robotics. </p><br>
-<p>Feel free to navigate through this webpage to know more.......<font size="5">&#9786;</font></p><br>
-<!--<p>You can also visit <a href="http://www-personal.umich.edu/~vishnuc/writings/", style="color:#0000FF;", target="_blank"> my personal blog </a></p>-->
-</div>
-<div style="width:25%; float:left;margin-left:2%; margin-top:2%; margin-bottom:2%; background-color:#E5E5E5;  border-radius:5px;">
-<img src="vishnu.jpg" style="margin:5% 5% 5% 5%; outline:2px solid black;outline-offset:2px; width:90%;">
-<center><font size="3px">Email: vishnuc@umich.edu<br>
-Phone: +1 (734)-747-3943 </font></center>
-<br>
-</div>
-</div><br>
+    <aside class="sidebar" data-sidebar>
 
-<div class="footer"><center><b>Last updated: Jan 2022</b></center>
-</div>
+      <div class="sidebar-info">
 
-</div>
-</div>
-</body></html>
- 
+        <figure class="avatar-box">
+          <img src="./assets/images/vishnu.jpg" alt="Vishnu S. Chipade" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vishnu S. Chipade">Vishnu S. Chipade</h1>
+
+          <p class="title">Robotics Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">vishnuc@umich.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+971 529967032</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <a href=assets/CV.pdf target="_blank">
+              <div class="cv-box">
+                CV
+              </div>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.co.in/citations?user=yOIDTpoAAAAJ&hl=en" class="social-link">
+              <img src="assets/icons/google-scholar.svg" alt="My Happy SVG" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vishnu-chipade-91a741bb/" class="social-link">
+              <img src="assets/icons/linkedin.svg" alt="My Happy SVG" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.researchgate.net/profile/Vishnu-Chipade" class="social-link">
+              <img src="assets/icons/researchgate18x18.png" alt="research-gate-icon" style="border-radius: 15%; object-fit: cover;"/>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publication</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Vishnu Chipade, a Robotics Researcher. I am currently working as a Senior Researcher at the Secure
+            Systems Research Center in Technology Innovation Institute, Abu Dhab, UAE. I have a Ph.D. in Aerospace
+            Engineering from the University of Michigan, Ann Arbor, MI, USA. My research involves bringing Robotics and
+            Artificial Intelligence together to create intelligent robotic systems that coordinate together, collaborate
+            with and assist humans to perform wide range of tasks safely, securely and resiliently.
+          </p>
+          <p>Feel free to navigate through this webpage to know more.......☺
+          </p>
+        </section>
+
+
+        <!--
+          - Research Interests
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Research Interests</h3>
+
+          <ol class="bullet-list">
+            <li class="bullet-item">
+              <p class="bullet-text">
+                Multi-Agent Systems: Coordination, Collaboration, Planning, Control and Resiliency
+              </p>
+            </li>
+            <li class="bullet-item">
+              <p class="bullet-text">
+                Human-Robot Collaboration and Interaction
+              </p>
+            </li>
+            <li class="bullet-item">
+              <p class="bullet-text">
+                Aritifical Intelligence for Robotics
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <!--
+          - Recent News
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Recent News</h3>
+
+          <ol class="news-list">
+
+            <li class="news-item">
+              <p class="news-text">
+                Our paper got accpeted in ICRA 2025, Atlanta, USA.
+              </p>
+            </li>
+
+            <li class="news-item">
+              <p class="news-text">
+                Attended IROS 2024 in Abu Dhabi, UAE.
+              </p>
+            </li>
+            <li class="news-item">
+              <p class="news-text">
+                Our paper got accpeted in IROS 2024, Abu Dhabi, UAE.
+              </p>
+            </li>
+            <li class="news-item">
+              <p class="news-text">
+                Our paper got accpeted in ICRA 2024, Yokohama, Japan.
+              </p>
+            </li>
+            <li class="news-item">
+              <p class="news-text">
+                Presented a research paper in CCTA2023, Bridgetown, Barbados.
+              </p>
+            </li>
+            <li class="news-item">
+              <p class="news-text">
+                Our research paper got accepted in CCTA2023, Bridgetown, Barbados.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h3 class="h3">Doctorate</h3>
+              <h4 class="h4 timeline-item-title">
+                University of Michigan, Ann Arbor
+              </h4>
+
+              <span>Sep 2017 — Aug 2022</span>
+
+              <p class="timeline-text">
+                Ph.D. in Aerospace Engineering
+                <span class="h5">GPA: 3.9/4 </span>
+                Advisor: <a href="https://websites.umich.edu/~dpanagou/"> <u> Dimitra Panagou </u></a>
+              <p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="h3">Graduate</h3>
+              <h4 class="h4 timeline-item-title">
+                University of Michigan, Ann Arbor
+              </h4>
+
+              <span>Sep 2017 — Aug 2022</span>
+
+              <p class="timeline-text">
+                M.S.E in Aerospace Engineering
+                <span class="h5">GPA: 3.9/4 </span>
+              <p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h3 class="h3">Undergraduate</h3>
+              <h4 class="h4 timeline-item-title">
+                Indian Insitute of Technology Kanpur
+              </h4>
+              <span>2012— 2017</span>
+
+              <p class="timeline-text">
+                B.Tech-M.Tech dual degree program in Aerospace Engineering
+                <span class="h5">CPI: 10/10 in M.Tech and 9.3/10 in B.Tech </span>
+              </p>
+
+              <p class="timeline-text">
+              Received Academic Excellence Award for 3 academic sessions 2012-13, 2014-15, 2015-16 for distinctive academic performance.
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #Experience
+      -->
+
+      <article class="resume" data-page="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bag"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Researcher</h4>
+
+              <span>Nov 2023 — Present</span>
+
+              <p class="timeline-text">
+                Secure Systems Research Center, <br>
+                Technology Innovation Institute, Abu Dhabi, UAE.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Postdoctoral Research Associate</h4>
+
+              <span>Apr 2023 — Nov 2023</span>
+
+              <p class="timeline-text">
+                Department of Mechanical and Industrial Engineering, <br>
+                Northeastern University, Boston, MA, USA.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Planning Engineer</h4>
+
+              <span>Jun 2022 — Feb 2023</span>
+
+              <p class="timeline-text">
+                ThorDrive Inc., Cincinnati, OH, USA
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Teaching Experience -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="pencil"></ion-icon>
+            </div>
+
+            <h3 class="h3">Teaching Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Student Instructor</h4>
+              <h4 class="h4 timeline-item-title">
+
+              <span>Sep 2021 — Dec 2021</span>
+
+              <p class="timeline-text">
+                Control of Aerospace Vehicles (AEROSP 470), University of Michigan 
+               <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Student Instructor</h4>
+
+              <span>Sep 2019 — Dec 2019</span>
+
+              <p class="timeline-text">
+                 Navigation and Guidance of Aerospace Vehicles (AEROSP 584), University of Michigan 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+
+              <span>Jul 2016 — Nov 2016</span>
+
+              <p class="timeline-text">
+               Experiments in Aerospace Engineering (AE 451A), IIT Kanpur 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Professional Service -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="reader"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Service</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="bullet-item bullet-item2">
+
+              <h4 class="h4 timeline-item-title">Reviewer for Journals</h4>
+
+              <ol class="bullet-list">
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Transactions on Robotics (TRO)
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Autonomous Robots
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Automatica
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    IEEE Robotics and Automation Letters (RA-L)
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    IEEE Control Systems Letters (L-CSS)
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Journal of Field of Robotics
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Nonlinear Dynamics
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Open Journal of Control Systems (OJ-CSYS)
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Transaction on Mechatronics (T-Mech)
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Journal of Aerospace Information Systems (JAIS)
+                  </p>
+                </li>                
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Transaction on Aerospace and Electronic Systems (TAES)
+                  </p>
+                </li>
+              </ol>
+            </li>
+
+            <li class="bullet-item bullet-item2">
+
+              <h4 class="h4 timeline-item-title">Reviewer for Conferences</h4>
+
+              <ol class="bullet-list">
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    International Conference on Robotics and Automation (ICRA) <!-- [2019, 2020, 2023, 20] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    International Conference on Intelligent Robots and Systems (IROS) <!-- [2018, 2021] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Conference on Decision and Control (CDC) <!-- [2019, 2020] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    American Control Conference (ACC) <!-- [2019, 2020, 2021, 2022] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    European Control Conference (ECC) <!-- [2019, 2020] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Symposium on Multi-Robot and Multi-Agent Systems
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    International Conference on Hybrid Systems: Computation and Control (HSCC) <!-- [2020] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    SciTech <!-- [2020] -->
+                  </p>
+                </li>
+                <li class="bullet-item">
+                  <p class="bullet-text">
+                    Symposium on Multi-Robot and Multi-Agent Systems
+                  </p>
+                </li>
+
+                
+              </ol>
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="blog" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Multi Agent Systems</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Human Robot Collaboration</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robot Motion Planning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI for Robotics</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Multi Agent Systems</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Human Robot Collaboration</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robot Motion Planning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI for Robotics</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <ul class="blog-posts-list">
+
+        
+            <li class="blog-post-item active" data-filter-item data-category="multi agent systems">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Battery Constrained Multi-Robot Priority Surveillance</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/battery_constrained_multi_robot_priority_patrolling.png" alt="HRI using LLMs" loading="lazy" data-research-img>
+                </figure>
+                <div class="blog-text" bdata-research-text>
+                  In this project, we are developing distributed motion planning algorithms for multi-robot systems that are patrolling a large area of importance such that they satisfy the following constraints:
+                  <ul class="bullet-list">
+                    <li class="bullet-item"> The robots need to visit some priority nodes at least once every fixed amount of time (i.e., priority patrolling);  </li>
+                    <li class="bullet-item"> All other nodes in the area are visited by one or more robot;</li>
+                    <li class="bullet-item"> The robots need to ensure their battery is always above the required threshold for safe operation (i.e., battery constraint).</li>
+                  </ul>
+                  The goal is to find a persistent joint policy for all the the robots in distributed manner to ensure that the total time to cover all the nodes at least once is minimized. 
+                  <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/battery_constrained_multi_robot_priority_patrolling.png">
+                      </div>
+                  </div>           
+                  
+                </div>
+
+              </div>
+            </li>
+
+            <li class="blog-post-item active" data-filter-item data-category="ai for robotics">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>LLM Powered Fully Automated UAV SITL and HITL Testing</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/px4_ros2_automated_testing.png" alt="LLM powered UAV SITL testing" loading="lazy" data-research-img>
+                </figure>
+                <div class="blog-text" bdata-research-text>
+                  In this project, we developed a Large Language Model (LLM) powered fully automated tesing framework for testing PX4 software for UAVs in Software-in-the-loop (SITL) setting. This framework provides an chat-bot like user interface, where an user can provide a brief description of the tests they want to perform on an UAV using PX4 software stack. The framework then automatically generates test cases, all the configuration json files for running these test cases using LLM and then executes these states by running the ROS2 test client-server architecture.
+
+                   <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/px4_ros2_automated_testing.png">
+                      </div>
+                  </div>            
+                  
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="blog-post-item active" data-filter-item data-category="robot motion planning">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Winding-Constrained Motion Planning for Tethered Robot</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/withy_a_star_2d_problem_setup.png" alt="Aerial Robots Inferring Human
+Intent from Gaze Following" loading="lazy" data-research-img>
+                </figure>
+                <!-- <div class="blog-content">                   -->
+                  <div class="blog-text" bdata-research-text>
+                    In this project, we developed a winding constrained path search algorithm, that uses tangent based Hybrid A*, to find robot path that satisfies minimum requirement on winding around obstacles to ensure sufficient traction due to capstan effect that provides stability to the tethered robot navigating inclined terrains.
+
+                    <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/withy_a_star_2d_problem_setup.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/tethered_robot_3D_path.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/tethered_robot_3D_path_with_hole.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/tethered_robot_3D_path_with_no_hole.png">
+                      </div>                      
+                    </div> 
+
+                    <div class="project-subtitle-box">References:</div>
+                    <ol class="project-reference-list">
+                    <li class="project-reference-item">Rahul Kumar, <b>Vishnu S. Chipade</b>, Sze Zheng Yong,  "<a href="http://vishnuchipade.github.io/publication/conference/ICRA2024_WiTHy_Astar_Motion_Planning.pdf" target="_blank">THAMP-3D: Tangent-based Hybrid A* Motion Planning for tethered robots in sloped 3D terrains</a>," 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 2025.
+                    </li>
+                    <li class="project-reference-item"> Rahul Kumar, <b>Vishnu S. Chipade</b>, Sze Zheng Yong, "<a href="http://vishnuchipade.github.io/publication/conference/ICRA2024_WiTHy_Astar_Motion_Planning.pdf" target="_blank">Stability of a Team of Tethered Ground Robots on Extreme Terrains</a>,"  2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, UAE, 2024.
+                    </li>
+                    <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Rahul Kumar,  Sze Zheng Yong, "<a href="http://vishnuchipade.github.io/publication/conference/ICRA2024_WiTHy_Astar_Motion_Planning.pdf" target="_blank">WiTHy A* : Winding-Constrained Motion Planning for Tethered Robot using Hybrid A*</a>,"  2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, May 2024.
+                    </li>
+                    </ol>                                   
+                    
+                  </div>
+
+                <!-- </div> -->
+
+              </div>
+            </li>
+
+
+            <li class="blog-post-item active" data-filter-item data-category="human robot collaboration">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Aerial Multi-Robot System Inferring Human
+Intent from Gaze Following</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/aerial_robot_human_gaze_problem_setup.png" alt="Aerial Robots Inferring Human
+Intent from Gaze Following" loading="lazy" data-research-img>
+                </figure>
+                <!-- <div class="blog-content">                   -->
+                  <div class="blog-text" bdata-research-text>
+                    In this project, we developed a coordination protocol for a team of aerial robots to infer the intention of the human in order to guide ground robots to assist the human, based on what the human is interested in, by visually following the human gaze and head orientation. We used XGaze algorithm for gaze estimation and developed a control strategy for the aerial robots to move them around the human so that the accuracy of gaze detection algorithm is maximized and hence the intention inference accuracy gets maximized.
+                    <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/aerial_robot_human_gaze_problem_setup.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/human_gaze_estimation_zone1.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/human_gaze_estimation_zone2.png">
+                      </div>                     
+                    </div> 
+
+                    <div class="project-subtitle-box">Reference:</div>
+                    <ol class="project-reference-list">
+                    <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Alia Gilbert, Daniel Harari, Dimitra Panagou, "<a href="http://vishnuchipade.github.io/publication/conference/CCTA2023_Aerial_Robots_Human_Intent_Inference_from_Gaze.pdf" target="_blank">Collaborative Control of Aerial Robots for Inferring Human Intent from Gaze Following</a>,"  2023 IEEE Conference on Control Technology and Applications, Bridgetown, Barbados, Aug 2023.
+                    </li>
+                    </ol>                                   
+                    
+                  </div>
+
+                <!-- </div> -->
+
+              </div>
+            </li>
+
+            <li class="blog-post-item active" data-filter-item data-category="human robot collaboration">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Robust Leader-Follower Formation Control in Human-Robot Scenarios</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/robust_formation_human_robot_scenario.png" alt="Robust Formation Control in Human-Robot Scenarios" loading="lazy" data-research-img>
+                </figure>
+                <!-- <div class="blog-content">                   -->
+                  <div class="blog-text" bdata-research-text>
+                    In this project, we developed a robust leader-follower formation control algorithm for a team of robots (followers) to maintain a formation around a human (leader), despite having noisy position and velocity measurements of the other robots and the human leader. We utilized adaptive estimation algorithms for estimating robots' and human's states. We then developed formation control strategy based on these estimates and Lyapunov-like barrier functions for collision avoidance and connectivity maintenance, to achieve a desired formation of multiple robots around the human leader while maintaining connectivity and avoiding collisions in the presence of uncertainties in the human leader’s and follower robots’ own state information.
+                    <div class="project-img-container">                      
+                      <div class="project-img">
+                      <img src="./assets/images/robust_formation_control_setup.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/robust_formation_human_robot_scenario.png">
+                      </div>
+                    </div>   
+
+                    <div class="project-subtitle-box">Reference:</div>
+                    <ol class="project-reference-list">
+                    <li class="project-reference-item">Alia Gilbert, <b>Vishnu S. Chipade</b>, Dimitra Panagou, "<a href="http://vishnuchipade.github.io/publication/conference/ACC2022_Robust_Formation_Control.pdf" target="_blank">Robust Leader-Follower Formation Control for Human-Robot Scenarios</a>,"  2022 American Control Conference, Atlanta, Georgia, June 2022. 
+                    </li>
+                    </ol>                                   
+                    
+                  </div>
+
+                <!-- </div> -->
+
+              </div>
+            </li>
+
+            <li class="blog-post-item active" data-filter-item data-category="multi agent systems">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Multi-modal Defense Strategy against Mutliple Adversarial Attackers</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/swarm_interception_herding_setup.png" alt="Multi-modal defense against multiple attackers" loading="lazy" data-research-img>
+                </figure>
+                <div class="blog-text" bdata-research-text>
+                  In this project, we developed a multi-modal defense strategy for a team of defenders to defend a protected area against a team of adversarial attackers. This multi-modal strategy involves two modes of defense: 1) herding a swarm of attackers away from the protected area using StringNet herding strategy and 2) interception of adversarial attackers using the inter-defender collision-aware interception strategy. First, the attackers are classified as <b><i> risk-averse </i></b> or <b><i> risk-taking </i></b> in real-time using DBSCAN clustering algorithm based on their positions and velocities. Then, a combination of <b><i> centralized</i></b> and <b><i> decentralized task assignment </i></b> problems are solved using mixed integer programs to yield the multi-modal defense strategy for the defenders to handle complex behaviours exhibited by adversarial attackers. 
+
+                  <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/swarm_interception_herding_setup.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/multi-modal_defense_strategy_block_diagram.png">
+                      </div>
+                    </div> 
+
+                  <div class="project-subtitle-box">Reference:</div>
+                  <ol class="project-reference-list">
+                    <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Dimitra Panagou, "<a href="http://vishnuchipade.github.io/publication/journal/TRO_2023_Swarm_Defense_Herding_Interception.pdf" target="_blank">Aerial Swarm Defense using Interception and Herding Strategies</a>," IEEE Transactions on Robotics 39 (5), 3821-3837, Oct 2023
+                    </li>
+                  </ol>
+                  <div class="project-subtitle-box">MATLAB Simulations:</div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/cofhjqudT9U?si=XSsVMkXDNTvw7qTT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                 
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="blog-post-item active" data-filter-item data-category="multi agent systems">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Inter-defender Collision-Aware Interception of Multiple Attackers</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/IDCAIS_1.PNG" alt="Collision-Aware Interception" loading="lazy" data-research-img>
+                </figure>
+                <!-- <div class="blog-content">-->
+                  <div class="blog-text" bdata-research-text>
+                    In this project, we developed <b><i>inter-defender collision-aware interception strategy (IDCAIS)</i></b> for a team of defenders to intercept the advesarial attackers aiming to reach a protected area while ensuring defeders' own safety. We build on the time-optimal strategy for one defender to capture one attacker. We then provide <b><i>collision-aware defender to attaker assignment (CADAA)</i></b> by solving a mixed-integer quadratic program which finds assignment of the defenders to the attackers that minimizes the chances of the defenders colliding with other defenders on their time-optimal trajectories corresponding to the assigned attacker. The control actions of the defenders are further modified using control barrier function based correction term to avoid the collisions among the defenders when the collisions among the defenders are unavoidable just by virtue of optimal assignment.
+                    <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/IDCAIS_1.PNG">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/IDCAIS_2.PNG">
+                      </div>
+                    </div> 
+
+                    <div class="project-subtitle-box">Reference:</div>
+                    <ol class="project-reference-list">
+                      <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Dimitra Panagou, "<a href="http://www-personal.umich.edu/~vishnuc/publications/IDCAIS_under_review.pdf" target="_blank">IDCAIS: Inter-Defender Collision-Aware Interception Strategy
+                      against Multiple Attackers</a>," (under review)
+                      </li> 
+                    </ol>     
+                    
+                  </div>
+
+                <!-- </div> -->
+
+              </div>
+            </li>
+
+
+            <li class="blog-post-item active" data-filter-item data-category="multi agent systems">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Herding Multiple Adversarial Multi-Robot Swarms</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/multi-swarm_herding_setup.png" alt="Multi-Swarm Herding" loading="lazy" data-research-img>
+                </figure>
+                <div class="blog-text" bdata-research-text>
+                  In this project, we developed a herding strategy for a team of defenders to herd multiple swarms of attackers that do no stay together and may even dynamically split into smaller sub-swarms in the presence of the defenders. We used ‘Density-based Spatial Clustering of Application with Noise (DBSCAN)’ algorithm to identify the spatially distributed swarms of the attackers and the defenders are then assigned to each identified swarm of attackers by solving a mixed-integer quadratically constrained program (MIQCP).
+
+                  <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/multi-swarm_herding_setup.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/multi-swarm_herding_block_diagram.png">
+                      </div>
+                  </div>                     
+
+                  <div class="project-subtitle-box">References:</div>
+                  <ol class="project-reference-list">
+                    <li class="project-reference-item"><b>Vishnu S. Chipade</b>, V. S. Aditya Marella, Dimitra Panagou, "<a href="https://www.frontiersin.org/articles/10.3389/frobt.2021.640446/" target="_blank">Aerial Swarm Defense by StringNet Herding: Theory and Experiments</a>," Frontiers in Robotics and AI, 8, p-81, 2021.
+                    </li>
+                    <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Dimitra Panagou, "<a href="http://vishnuchipade.github.io/publication/conference/CDC2020_Multi_Swarm_Herding.pdf" target="_blank">Multi-Swarm Herding: Protecting against Adversarial Swarms</a>," 59th IEEE Conference on Decision on Control, Jeju Island, Republic of Korea, December 2020.
+                    </li>
+                  </ol>
+                  <div class="project-subtitle-box">MATLAB Simulations:</div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/U3MvcVoQdp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                  
+                </div>
+
+              </div>
+            </li>
+
+            <li class="blog-post-item active" data-filter-item data-category="multi agent systems">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Herding Adversarial Multi-Robot Swarm</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/enclosing_phase_exp.png" alt="StringNet Herding" loading="lazy" data-research-img>
+                </figure>
+                <!-- <div class="blog-content">                   -->
+                  <div class="blog-text" bdata-research-text>
+                    In this project, we developed 'StringNet Herding' approach to herd an adversarial swarm by forming a closed formation of barriers (StringNet) formed by the defenders around the adversarial swarm in order to constraint the and control the attackers' motion. A combination of open-loop, near time-optimal controllers (that result in forming the defenders’ formation), and statefeedback controllers with finite-time convergence guarantees under bounded inputs (that guide the formation around attackers and towards the safe area) synthesize the herding strategy.
+
+                    <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/stringnet.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/swarm_herding_block_diagram.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/enclosing_phase_exp.png">
+                      </div>
+                    </div> 
+
+                    <div class="project-subtitle-box"> References:</div>
+                    <ol class="project-reference-list">
+                      <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Dimitra Panagou, "<a
+                          href="http://www-personal.umich.edu/~vishnuc/publications/TRO_2021_StringNet_Herding.pdf"
+                          target="_blank"> Multi-Agent Planning and Control for Swarm Herding in
+                          2D Obstacle Environments under Bounded Inputs</a>," IEEE Transactions on Robotics, 38(2),
+                        pp.-, May 2021.
+                      </li>
+                      <li class="project-reference-item"><b>Vishnu S. Chipade</b>, Dimitra Panagou, "<a
+                          href="https://ieeexplore.ieee.org/abstract/document/9029573" target="_blank">Herding an Adversarial Swarm in an Obstacle Environment</a>," 58th IEEE
+                        Conference on Decision on Control, Nice, France, December 2019.<br>
+                      </li>
+                    </ol>
+                    <div class="project-subtitle-box">Experimental demonstration:</div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rpvf0ogkpmk" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+
+                    <div class="project-subtitle-box">Gazebo simulation:</div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HswpnNdkuNY" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+
+                    <div class="project-subtitle-box">MATLAB Simulations:</div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F53Fz44rtlw" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>                   
+                    
+                  </div>
+
+                <!-- </div> -->
+
+              </div>
+            </li>
+
+            <li class="blog-post-item active" data-filter-item data-category="robot motion planning">
+              <div class="content-card" bdata-research-item>
+
+                <h4 class="h4 blog-item-title" bdata-research-title>Safe Autonomous Overtaking with Intent Estimation</h4>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/safe_autonomous_overtaking.png" alt="Safe Autonomous Overtaking" loading="lazy" data-research-img>
+                </figure>
+                <!-- <div class="blog-content">                   -->
+                  <div class="blog-text" bdata-research-text>
+                    In this project, we developed a vector-field based, real-time implementable motion planning algorithm for safe autonomous overtaking while taking into account the online inferred intent of other vehicles on road.
+                    <div class="project-img-container">
+                      <div class="project-img">
+                      <img src="./assets/images/safe_autonomous_overtaking.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/safe_autonomous_overtaking_block_diagram.png">
+                      </div>
+                      <div class="project-img">
+                      <img src="./assets/images/safe_autonomous_overtaking_vector_field.png">
+                      </div>                     
+                    </div> 
+
+                    <div class="project-subtitle-box">Reference:</div>
+                    <ol class="project-reference-list">
+                      <li class="project-reference-item"><b> Vishnu S. Chipade</b>, Q. Shen, L. Huang, N. Ozay, Sze Zheng Yong,  Dimitra Panagou, "<a
+                          href="http://vishnuchipade.github.io/publication/conference/ECC2019_Safe_Overtaking_with_Intent_Estimation.pdf"
+                          target="_blank"> Safe Autonomous Overtaking with Intention Estimation</a>," 2019 European Control Conference, Napoli, Italy, June 2019.
+                      </li>
+                    </ol>
+
+                    <div class="project-subtitle-box">MATLAB Simulations:</div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fVyW3anBvC4?si=OrWPOKOsgaM_5naV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                  
+                    
+                  </div>
+
+                <!-- </div> -->
+
+              </div>
+            </li>
+            
+          </ul>
+
+        </section>
+
+
+        <!-- modals for blog -->
+
+        <div class="modal-container" bdata-modal-container>
+
+          <div class="overlay" bdata-overlay>
+          </div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" bdata-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" bdata-modal-title>Vishnu</h4>
+
+              <div class="blog-text active" bdata-modal-text>
+                <!-- <div class="modal-img-wrapper"> -->
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Vishnu Chipade" width="80" bdata-modal-img>
+                </figure>
+                <!-- </div> -->
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+      <!--
+        - #PUBLICATION
+      -->
+
+      <article class="portfolio" data-page="publication">
+
+        <header>
+          <h2 class="h2 article-title">Publication</h2>
+        </header>
+
+
+        <section class="projects">
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn="All">All</button>
+            </li> 
+
+            <li class="filter-item">
+              <button data-filter-btn="Journal">Journal</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="Conference">Conference</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item="All">All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="Journal">Journal</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="Conference">Conference</button>
+              </li>
+            </ul>
+
+          </div>
+
+
+          <!-- Environment for actual publications list to be loaded by javascript -->
+          <ol class="custom-counter">
+
+            
+
+          </ol>
+
+
+        </section>
+
+        <!-- Modal for publication -->
+
+        <div class="modal-container" pdata-modal-container>
+
+          <div class="overlay" pdata-overlay>
+          </div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" pdata-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" pdata-modal-title></h4>
+              <div class="blog-text active" pdata-modal-text>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <script src="./assets/js/publication_data.js"></script>
+
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

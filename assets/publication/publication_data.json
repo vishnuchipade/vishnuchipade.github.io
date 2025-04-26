@@ -1,0 +1,182 @@
+[
+  {
+    "category": "conference",
+    "authors": "Rahul Kumar, Xingjian Xue, Vishnu S. Chipade, Sze Zheng Yong",
+    "title": "THAMP-3D+: Augmented Tangent Graph-Based Motion Planning for Tethered Robots on Sloped Terrains",
+    "journal": "(under review)",
+    "pdf_link": "",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Rahul Kumar, Sze Zheng Yong",
+    "title": "Winding-Constrained Motion Planning for Tethered Robot using Hybrid A*: Admissibility and Performance Analysis",
+    "journal": "(under review)",
+    "pdf_link": "",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Rahul Kumar, Vishnu S. Chipade, Sze Zheng Yong",
+    "title": "THAMP-3D: Tangent-based Hybrid A* Motion Planning for tethered robots in sloped 3D terrains",
+    "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 2025",
+    "pdf_link": "./assets/publication/conference/ICRA2025_THAMP3D.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Rahul Kumar, Vishnu S. Chipade, Sze Zheng Yong",
+    "title": "Stability of a Team of Tethered Ground Robots on Extreme Terrains",
+    "journal": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, UAE, 2024.",
+    "pdf_link": "./assets/publication/conference/IROS2024_Stability_of_Tethered_Robots.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": " Vishnu S. Chipade, Rahul Kumar, Sze Zheng Yong",
+    "title": "WiTHy A*: Winding-Constrained Motion Planning for Tethered Robot using Hybrid A*",
+    "journal": "2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024",
+    "pdf_link": "./assets/publication/conference/ICRA2024_WiTHy_Astar_Motion_Planning.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "IDCAIS: Inter-Defender Collision-Aware Interception Strategy against Multiple Attackers",
+    "journal": "(under review)",
+    "pdf_link": "https://arxiv.org/abs/2112.12098",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Aerial Swarm Defense using Interception and Herding Strategies",
+    "journal": "IEEE Transactions on Robotics 39 (5), 3821-3837, Oct 2023",
+    "pdf_link": "./assets/publication/journal/TRO_2023_Swarm_Defense_Herding_Interception.pdf",
+    "abstract": "",
+    "citation": ""    
+  },  
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Multi-Agent Planning and Control for Swarm Herding in 2D Obstacle Environments under Bounded Inputs",
+    "journal": "IEEE Transactions on Robotics 38 (2), May 2021",
+    "pdf_link": "./assets/publication/journal/TRO_2021_StringNet_Herding.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, V. S. A. Marella, Dimitra Panagou",
+    "title": "Aerial Swarm Defense by StringNet Herding: Theory and Experiments",
+    "journal": "Frontiers in Robotics and AI, 2021.",
+    "pdf_link": "{https://www.frontiersin.org/articles/10.3389/frobt.2021.640446/",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Abhishek, M. Kothari, R. Chaudhari",
+    "title": "Systematic design methodology for development and flight testing of a variable pitch quadrotor biplane VTOL UAV for payload delivery",
+    "journal": " Mechatronics, 2018.",
+    "pdf_link": "./assets/publication/journal/Mechatronics_2018_Biplane_Quad.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "  Vishnu S. Chipade, Alia Gilbert, Daniel Harari, Dimitra Panagou",
+    "title": "Collaborative Control of Aerial Robots for Inferring Human Intent from Gaze Following",
+    "journal": "2023 IEEE Conference on Control Technology and Applications, Bridgetown, Barbados, Aug 2023",
+    "pdf_link": "./assets/publication/conference/CCTA2023_Aerial_Robots_Human_Intent_Inference_from_Gaze.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": " Alia Gilbert, Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Robust Leader-Follower Formation Control for Human-Robot Scenarios",
+    "journal": "2022 American Control Conference, Atlanta, Georgia, June 2022",
+    "pdf_link": "./assets/publication/conference/ACC2022_Robust_Formation_Control.pdf",
+    "abstract": "",
+    "citation": ""    
+  },
+  {
+    "category": "conference",
+    "authors": " Weifan Zhang, Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Herding an Adversarial Swarm in Three-dimensional Spaces",
+    "journal": "2021 American Control Conference, New Orleans, LA, May 2021",
+    "pdf_link": "./assets/publication/conference/ACC2021_3D_Swarm_Herding.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Multi-Swarm Herding: Protecting against Adversarial Swarms",
+    "journal": "59th IEEE Conference on Decision on Control, Jeju Island, Republic of Korea, December 2020",
+    "pdf_link": "./assets/publication/conference/CDC2020_Multi_Swarm_Herding.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "R. Radmanesh, Z. Wang, Vishnu S. Chipade, G. Tsechpenakis,  Dimitra Panagou",
+    "title": "LIV-LAM: LiDAR and Visual Localization and Mapping",
+    "journal": "2020 American Control Conference, Denver, CO, July 2020",
+    "pdf_link": "./assets/publication/conference/ACC2020_LIV-LAM.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Herding an Adversarial Swarm in an Obstacle Environment",
+    "journal": "58th IEEE Conference on Decision on Control, Nice, France, December 2019",
+    "pdf_link": "./assets/publication/conference/CDC2019_Swarm_Herding.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Herding an Adversarial Attacker to a Safe Area for Defending Safety-Critical Infrastructure",
+    "journal": "2019 American Control Conference, Philadelphia, PA, July 2019",
+    "pdf_link": "./assets/publication/conference/ACC2019_Herding.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Vishnu S. Chipade, Q. Shen, L. Huang, N. Ozay, Sze Zheng Yong,  Dimitra Panagou",
+    "title": "Safe Autonomous Overtaking with Intention Estimation",
+    "journal": "2019 European Control Conference, Napoli, Italy, June 2019",
+    "pdf_link": "./assets/publication/conference/ECC2019_Safe_Overtaking_with_Intent_Estimation.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Multiplayer Target-Attacker-Defender Differential Game: Pairing Allocations and Control Strategies for Guaranteed Intercept",
+    "journal": "AIAA Scitech 2019 Forum. 2019",
+    "pdf_link": "./assets/publication/conference/SciTech2019_Multiplayer_TAD_Game.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "conference",
+    "authors": "Vishnu S. Chipade, Abhishek, Mangal Kothari",
+    "title": "Advanced Flight Dynamic Modelling of Variable Pitch Quadrotor",
+    "journal": "2018 AIAA Atmospheric Flight Mechanics Conference",
+    "pdf_link": "./assets/publication/conference/SciTech2018_Advanced_Rotor_Dynamics.pdf",
+    "abstract": "",
+    "citation": ""
+  }
+]
