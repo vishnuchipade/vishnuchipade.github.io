@@ -1040,7 +1040,13 @@ main {
   transition: 0.15s ease-in-out;
 }
 
-.filter-select.active+.select-list {
+.filter-select.active + .select-list {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.select-list.active {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
@@ -1535,6 +1541,7 @@ main {
 
 .publication-item.active {
   display: flex;
+  flex-wrap: wrap;
   animation: scaleUp 0.25s ease forwards;
 }
 
@@ -1565,8 +1572,11 @@ main {
 /*  box-sizing: border-box; /* Include the border in the element's total width/height */
   vertical-align: middle; /* Align the <div> with the list marker */
   margin: 0; /* Ensure there's no extra margin around the <div> */
-  padding: 0; /* Padding inside the <div> */
-
+  padding: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
 }
 
 .publication-content::before {
@@ -1630,8 +1640,6 @@ main {
   transform: scale(1.1); /* Gently zoom in */
 }
 
-
-
 .publication-meta {
   position: relative;
   display: block;
@@ -1643,6 +1651,13 @@ main {
   padding: 0px; /* Padding inside the <div> */
   z-index:2;
 }
+
+
+.publication-meta {
+  word-break: break-word;
+  white-space: normal;
+}
+
 
 .publication-authors {
   color: var(--light-gray-70);
@@ -1666,6 +1681,16 @@ main {
   font-size: var(--fs-8);
   font-weight: var(--fw-3);
   line-height: 1.5;
+}
+
+.publication-authors,
+.publication-title,
+.publication-journal {
+  display: block;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
 }
 
 /*Counter List Items */
@@ -1729,8 +1754,21 @@ main {
 
 }
 
+@media (max-width: 579px) {
+  .publication-action-container {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 6px;
+  }
 
-
+  .publication-action {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
 
 
 /**

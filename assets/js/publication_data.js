@@ -130,6 +130,8 @@
           console.error("Conference button not found");
         }
 
+
+        //All select buttons
         const allSelectButtons = document.querySelector('[data-select-item]');
 
         // Event listener for All button in .select-list
@@ -137,7 +139,7 @@
         if (allSelectButton) {
           allSelectButton.addEventListener('click', () => {
             console.log("All select item clicked");
-            allSelectButtons.forEach(btn => btn.classList.remove('active'));
+            //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('all', data);
           });
         } else {
@@ -149,7 +151,7 @@
         if (journalSelectButton) {
           journalSelectButton.addEventListener('click', () => {
             console.log("Journal select item clicked");
-            allSelectButtons.forEach(btn => btn.classList.remove('active'));
+            //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('journal', data);  // Populate with journal category
           });
         } else {
@@ -161,7 +163,7 @@
         if (conferenceSelectButton) {
           conferenceSelectButton.addEventListener('click', () => {
             console.log("Conference select item clicked");
-            allSelectButtons.forEach(btn => btn.classList.remove('active'));
+            //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('conference', data);  // Populate with conference category
           });
         } else {

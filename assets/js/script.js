@@ -14,27 +14,35 @@ sidebarBtn.addEventListener("click", function () {
   elementToggleFunc(sidebar);
 });
 
-// custom select variables
-const select = document.querySelector("[data-select]");
-const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
+//Add event listener to select list drop down menu
+const selectElements = document.querySelectorAll("[data-select]");
 
-select.addEventListener("click", function () {
-  elementToggleFunc(this);
+selectElements.forEach(select => {
+  const selectValue = select.querySelector("[data-select-value]");
+  const selectList = select.nextElementSibling; // assuming structure is <button> + <ul>
+  const selectItems = selectList.querySelectorAll("[data-select-item]");
+
+  // Toggle dropdown on select click
+  select.addEventListener("click", function () {
+    elementToggleFunc(this);
+  });
+
+  // Set value and close on item click
+  selectItems.forEach(item => {
+    item.addEventListener("click", function () {
+      const selectedValue = this.innerText.toLowerCase();
+      selectValue.innerText = this.innerText;
+      elementToggleFunc(select);
+
+      // Trigger filter if needed
+      filterFunc?.(selectedValue);
+    });
+  });
 });
 
-// add event in all select items
-for (let i = 0; i < selectItems.length; i++) {
-  selectItems[i].addEventListener("click", function () {
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    elementToggleFunc(select);
-    filterFunc(selectedValue);
-  });
-}
 
 // filter variables
+const filterBtn = document.querySelectorAll("[data-filter-btn]");
 const filterItems = document.querySelectorAll("[data-filter-item]");
 
 const filterFunc = function (selectedValue) {
