@@ -1572,7 +1572,7 @@ main {
 /*  box-sizing: border-box; /* Include the border in the element's total width/height */
   vertical-align: middle; /* Align the <div> with the list marker */
   margin: 0; /* Ensure there's no extra margin around the <div> */
-  padding: 1rem;
+  padding: 0.75rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;
@@ -1647,7 +1647,7 @@ main {
 /*  overflow: auto;*/
   top: 0px;
   box-sizing: border-box;  
-  margin: -20px; /* Ensure there's no extra margin around the <div> */
+  margin: 0px; /* Ensure there's no extra margin around the <div> */
   padding: 0px; /* Padding inside the <div> */
   z-index:2;
 }
@@ -1935,24 +1935,6 @@ main {
     margin-bottom: 40px;
   }
 
-  /* service */
-
-  .publication-content {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 18px;
-    padding: 30px;
-  }
-
-  .publication-icon-box {
-    margin-bottom: 0;
-    margin-top: 5px;
-  }
-
-  .publication-content-box {
-    text-align: left;
-  }
 
   /* testimonials */
 
