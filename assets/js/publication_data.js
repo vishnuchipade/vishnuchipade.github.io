@@ -18,6 +18,8 @@
 
       console.log("Filtered Data:", filteredData); // Check the filtered data
 
+      const myName = "Vishnu S. Chipade"; // Exact match to underline
+
       // Clear the existing list
       publicationList.innerHTML = '';
 
@@ -40,7 +42,7 @@
         li.innerHTML = `
           <div class="publication-content">
             <div class="publication-meta">
-              <span class="publication-authors">${item.authors}</span>
+              <span class="publication-authors">${item.authors.replace(myName, `<b><u>${myName}</u></b>`)}</span>
               <span class="publication-title">${item.title}</span>
               <span class="publication-journal">${item.journal}</span>
             </div>
