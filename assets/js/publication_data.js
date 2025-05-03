@@ -182,7 +182,19 @@
           });
         } else {
           console.error("Conference select item not found");
-        }    
+        }
+
+        // Event listener for Conference button in .select-list
+        const patentSelectButton = document.querySelector('[data-select-item="Patent"]');
+        if (patentSelectButton) {
+          patentSelectButton.addEventListener('click', () => {
+            console.log("Patent select item clicked");
+            //allSelectButtons.forEach(btn => btn.classList.remove('active'));
+            populateList('patent', data);  // Populate with conference category
+          });
+        } else {
+          console.error("Patent select item not found");
+        }     
 
       // Event listener for Abstract and Cite buttons to open modal
       document.addEventListener('click', function(e) {
