@@ -113,6 +113,7 @@
           journalButton.addEventListener('click', () => {
             console.log("Journal button clicked");
             allButtons.forEach(btn => btn.classList.remove('active')); //remove active status from the other category
+            journalButton.classList.add('active');
             populateList('journal', data);  // Populate with journal category
           });
         } else {
@@ -124,6 +125,7 @@
           conferenceButton.addEventListener('click', () => {
             console.log("Conference button clicked");
             allButtons.forEach(btn => btn.classList.remove('active'));//remove active status from the other category
+            conferenceButton.classList.add('active');
             populateList('conference', data);  // Populate with conference category
           });
         } else {
