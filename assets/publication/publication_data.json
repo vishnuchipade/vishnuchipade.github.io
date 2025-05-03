@@ -72,24 +72,6 @@
     "citation": ""
   },
   {
-    "category": "journal",
-    "authors": "Vishnu S. Chipade, V. S. A. Marella, Dimitra Panagou",
-    "title": "Aerial Swarm Defense by StringNet Herding: Theory and Experiments",
-    "journal": "Frontiers in Robotics and AI, 2021.",
-    "pdf_link": "{https://www.frontiersin.org/articles/10.3389/frobt.2021.640446/",
-    "abstract": "",
-    "citation": ""
-  },
-  {
-    "category": "journal",
-    "authors": "Vishnu S. Chipade, Abhishek, M. Kothari, R. Chaudhari",
-    "title": "Systematic design methodology for development and flight testing of a variable pitch quadrotor biplane VTOL UAV for payload delivery",
-    "journal": " Mechatronics, 2018.",
-    "pdf_link": "./assets/publication/journal/Mechatronics_2018_Biplane_Quad.pdf",
-    "abstract": "",
-    "citation": ""
-  },
-  {
     "category": "conference",
     "authors": "  Vishnu S. Chipade, Alia Gilbert, Daniel Harari, Dimitra Panagou",
     "title": "Collaborative Control of Aerial Robots for Inferring Human Intent from Gaze Following",
@@ -108,6 +90,15 @@
     "citation": ""    
   },
   {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, V. S. A. Marella, Dimitra Panagou",
+    "title": "Aerial Swarm Defense by StringNet Herding: Theory and Experiments",
+    "journal": "Frontiers in Robotics and AI, 2021.",
+    "pdf_link": "{https://www.frontiersin.org/articles/10.3389/frobt.2021.640446/",
+    "abstract": "",
+    "citation": ""
+  },
+  {
     "category": "conference",
     "authors": " Weifan Zhang, Vishnu S. Chipade, Dimitra Panagou",
     "title": "Herding an Adversarial Swarm in Three-dimensional Spaces",
@@ -122,6 +113,15 @@
     "title": "Multi-Swarm Herding: Protecting against Adversarial Swarms",
     "journal": "59th IEEE Conference on Decision on Control, Jeju Island, Republic of Korea, December 2020",
     "pdf_link": "./assets/publication/conference/CDC2020_Multi_Swarm_Herding.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "patent",
+    "authors": "N. Ozay, Vishnu S. Chipade, Q. Shen, L. Huang, S. Z. Yong and Dimitra Panagou",
+    "title": "Safe autonomous overtaking with intention estimation",
+    "journal": "US Application No.: 16360572, Dated: 24 Sep 2020",
+    "pdf_link": "https://patents.google.com/patent/US20200298859A1/en",
     "abstract": "",
     "citation": ""
   },
@@ -171,11 +171,29 @@
     "citation": ""
   },
   {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Abhishek, M. Kothari, R. Chaudhari",
+    "title": "Systematic design methodology for development and flight testing of a variable pitch quadrotor biplane VTOL UAV for payload delivery",
+    "journal": " Mechatronics, 2018.",
+    "pdf_link": "./assets/publication/journal/Mechatronics_2018_Biplane_Quad.pdf",
+    "abstract": "",
+    "citation": ""
+  },
+  {
     "category": "conference",
     "authors": "Vishnu S. Chipade, Abhishek, Mangal Kothari",
     "title": "Advanced Flight Dynamic Modelling of Variable Pitch Quadrotor",
     "journal": "2018 AIAA Atmospheric Flight Mechanics Conference",
     "pdf_link": "./assets/publication/conference/SciTech2018_Advanced_Rotor_Dynamics.pdf",
+    "abstract": "",
+    "citation": ""
+  }, 
+  {
+    "category": "patent",
+    "authors": "Abhishek, M. Kothari, N. Gupta, Vishnu S. Chipade , N. Gupta, R. Chaudhari, and R. V. Singh",
+    "title": "An umannaed aerial vehicle having a fixed biplane wing",
+    "journal": "India Application No.: 201611015384, Dated: 03 May 2016, Patent No.: 507670, Granted: 06 Feb 2024",
+    "pdf_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewPDF",
     "abstract": "",
     "citation": ""
   }

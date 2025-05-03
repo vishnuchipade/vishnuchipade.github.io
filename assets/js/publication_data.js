@@ -94,6 +94,7 @@
         const allButton = document.querySelector('[data-filter-btn="All"]');
         const journalButton = document.querySelector('[data-filter-btn="Journal"]');
         const conferenceButton = document.querySelector('[data-filter-btn="Conference"]');
+        const patentButton = document.querySelector('[data-filter-btn="Patent"]');
         const allButtons = document.querySelectorAll('[data-filter-btn]');
 
         // Event listener for All button in .filter-list 
@@ -132,6 +133,17 @@
           console.error("Conference button not found");
         }
 
+        // Event listener for Patent button in .filter-list
+        if (patentButton) {
+          patentButton.addEventListener('click', () => {
+            console.log("Patent button clicked");
+            allButtons.forEach(btn => btn.classList.remove('active'));//remove active status from the other category
+            patentButton.classList.add('active');
+            populateList('patent', data);  // Populate with conference category
+          });
+        } else {
+          console.error("Patent button not found");
+        }
 
         //All select buttons
         const allSelectButtons = document.querySelector('[data-select-item]');
@@ -170,10 +182,7 @@
           });
         } else {
           console.error("Conference select item not found");
-        }
-
-
-    
+        }    
 
       // Event listener for Abstract and Cite buttons to open modal
       document.addEventListener('click', function(e) {
