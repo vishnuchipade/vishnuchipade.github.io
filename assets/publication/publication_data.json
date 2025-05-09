@@ -63,15 +63,6 @@
     "citation": ""    
   },  
   {
-    "category": "journal",
-    "authors": "Vishnu S. Chipade, Dimitra Panagou",
-    "title": "Multi-Agent Planning and Control for Swarm Herding in 2D Obstacle Environments under Bounded Inputs",
-    "journal": "IEEE Transactions on Robotics 38 (2), May 2021",
-    "pdf_link": "./assets/publication/journal/TRO_2021_StringNet_Herding.pdf",
-    "abstract": "",
-    "citation": ""
-  },
-  {
     "category": "conference",
     "authors": "  Vishnu S. Chipade, Alia Gilbert, Daniel Harari, Dimitra Panagou",
     "title": "Collaborative Control of Aerial Robots for Inferring Human Intent from Gaze Following",
@@ -95,6 +86,15 @@
     "title": "Aerial Swarm Defense by StringNet Herding: Theory and Experiments",
     "journal": "Frontiers in Robotics and AI, 2021.",
     "pdf_link": "{https://www.frontiersin.org/articles/10.3389/frobt.2021.640446/",
+    "abstract": "",
+    "citation": ""
+  },
+  {
+    "category": "journal",
+    "authors": "Vishnu S. Chipade, Dimitra Panagou",
+    "title": "Multi-Agent Planning and Control for Swarm Herding in 2D Obstacle Environments under Bounded Inputs",
+    "journal": "IEEE Transactions on Robotics 38 (2), May 2021",
+    "pdf_link": "./assets/publication/journal/TRO_2021_StringNet_Herding.pdf",
     "abstract": "",
     "citation": ""
   },

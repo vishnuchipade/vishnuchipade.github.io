@@ -557,6 +557,7 @@ main {
 .social-item .social-link:hover {
   color: var(--light-gray);
 }
+
 .cv-box {
   position: relative;
   background: var(--border-gradient-onyx-2);
@@ -808,12 +809,10 @@ main {
   top: 100px;
 }
 
-.news-item {
-  position: relative;
-}
-
-.news-item:not(:last-child) {
-  margin-bottom: 7px;
+.news-list span {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  line-height: 0.6;
 }
 
 .news-item-title {
@@ -822,21 +821,36 @@ main {
   margin-bottom: 7px;
 }
 
-.news-list span {
-  color: var(--vegas-gold);
-  font-weight: var(--fw-400);
-  line-height: 0.6;
+.news-item {
+  position: relative;
+  display: none;
 }
 
-.news-item:not(:last-child)::before {
+.news-item:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.news-item.last-visible {
+  margin-bottom: 0 !important;
+}
+
+
+.news-item::before {
   content: "";
   position: absolute;
-  top: 8px; /* Lowered so it starts *just under* the dot */
+  top: 8px;
   left: -30px;
   width: 1.5px;
-  height: calc(100% + 5px); /* Adjusted to maintain spacing */
+  height: calc(100% + 5px);
   background: var(--jet);
-  z-index: 0; /* Make sure it's behind the dot */
+  z-index: 0;
+}
+
+/* Hide line after the last visible item */
+.news-item.last-visible::before {
+  content: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .news-item::after {
@@ -867,6 +881,31 @@ main {
   line-height: 1;
 }
 
+.news-button{
+  margin-top: 12px;
+  padding: 4px 10px; /* smaller padding */
+  background: var(--eerie-black-light);
+  color: white;
+  box-shadow: var(--shadow-1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: var(--fs-9);
+}
+
+.news-button::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--eerie-black-1);
+  border-radius: inherit;
+  z-index: -1;
+  transition: background 0.3s ease;
+}
+
+.news-button::hover {
+  background-color: #b9962e; /* Darker shade on hover */
+}
 
 /*-----------------------------------*\
   #RESUME
