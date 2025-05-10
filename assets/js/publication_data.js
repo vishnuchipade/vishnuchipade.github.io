@@ -16,7 +16,7 @@
         return;
       }
 
-      console.log("Filtered Data:", filteredData); // Check the filtered data
+      //console.log("Filtered Data:", filteredData); // Check the filtered data
 
       const myName = "Vishnu S. Chipade"; // Exact match to underline
 
@@ -49,18 +49,34 @@
             <div class="publication-action-container">              
               <a href="${item.pdf_link}" target="_blank">
                    <div class="publication-action">
-  <i class="fas fa-file" style="font-size: 12px; margin-right: 2px;"></i>
-  <i class="fas fa-paperclip" style="font-size: 10px;"></i>
-  &nbsp;PDF
-</div>
-
+                    <i class="fas fa-file" style="font-size: 12px; margin-right: 2px;"></i>
+                    <i class="fas fa-paperclip" style="font-size: 10px;"></i>
+                    &nbsp;PDF
+                  </div>
               </a>
-              
             </div>
           </div>
         `;
 
         publicationList.appendChild(li);  // Append the created list item to the publication list
+      });
+
+      //reverse the numbering of the publications 
+      const ol = document.querySelector('.custom-counter');
+      const items = Array.from(ol.getElementsByTagName('li'));
+      
+      // Filter only active items (those with class 'active')
+      const activeItems = items.filter(item => item.classList.contains('active'));
+
+      //Reverse the numbering of the publication items
+      // Select all ordered lists with the class "custom-counter"
+      // const listItems = document.querySelectorAll('.custom-counter li');
+      const totalItems = activeItems.length;
+
+      // Loop through each <li> and set the reverse number
+      activeItems.forEach((li, index) => {
+          li.setAttribute('data-number', totalItems - index); // Set reverse numbering
+          //console.log("Reversed pub item num");
       });
     }
 
@@ -75,22 +91,11 @@
     fetch('./assets/publication/publication_data.json')
       .then(response => response.json())
       .then(data => {
-        console.log("JSON data loaded:", data);
+        //console.log("JSON data loaded:", data);
         
         // Initially load Journal items
         //populateList('journal', data);
         populateList('all', data);
-
-        // // Event listener for Journal button in .filter-list
-        // const publicationButton = document.querySelector('[data-nav-link="Publication"]');
-        // if (publicationButton) {
-        //   publiactionButton.addEventListener('click', () => {
-        //     console.log("Publication button clicked");
-        //     populateList('journal', data);  // Populate with journal category
-        //   });
-        // } else {
-        //   console.error("Publication button not found");
-        // }
 
         //Category Buttons
         const allButton = document.querySelector('[data-filter-btn="All"]');
@@ -114,7 +119,7 @@
         // Event listener for Journal button in .filter-list       
         if (journalButton) {
           journalButton.addEventListener('click', () => {
-            console.log("Journal button clicked");
+            //console.log("Journal button clicked");
             allButtons.forEach(btn => btn.classList.remove('active')); //remove active status from the other category
             journalButton.classList.add('active');
             populateList('journal', data);  // Populate with journal category
@@ -126,7 +131,7 @@
         // Event listener for Conference button in .filter-list
         if (conferenceButton) {
           conferenceButton.addEventListener('click', () => {
-            console.log("Conference button clicked");
+            //console.log("Conference button clicked");
             allButtons.forEach(btn => btn.classList.remove('active'));//remove active status from the other category
             conferenceButton.classList.add('active');
             populateList('conference', data);  // Populate with conference category
@@ -138,7 +143,7 @@
         // Event listener for Patent button in .filter-list
         if (patentButton) {
           patentButton.addEventListener('click', () => {
-            console.log("Patent button clicked");
+            //console.log("Patent button clicked");
             allButtons.forEach(btn => btn.classList.remove('active'));//remove active status from the other category
             patentButton.classList.add('active');
             populateList('patent', data);  // Populate with conference category
@@ -154,7 +159,7 @@
         const allSelectButton = document.querySelector('[data-select-item="All"]');
         if (allSelectButton) {
           allSelectButton.addEventListener('click', () => {
-            console.log("All select item clicked");
+            //console.log("All select item clicked");
             //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('all', data);
           });
@@ -166,7 +171,7 @@
         const journalSelectButton = document.querySelector('[data-select-item="Journal"]');
         if (journalSelectButton) {
           journalSelectButton.addEventListener('click', () => {
-            console.log("Journal select item clicked");
+            //console.log("Journal select item clicked");
             //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('journal', data);  // Populate with journal category
           });
@@ -178,7 +183,7 @@
         const conferenceSelectButton = document.querySelector('[data-select-item="Conference"]');
         if (conferenceSelectButton) {
           conferenceSelectButton.addEventListener('click', () => {
-            console.log("Conference select item clicked");
+            //console.log("Conference select item clicked");
             //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('conference', data);  // Populate with conference category
           });
@@ -190,7 +195,7 @@
         const patentSelectButton = document.querySelector('[data-select-item="Patent"]');
         if (patentSelectButton) {
           patentSelectButton.addEventListener('click', () => {
-            console.log("Patent select item clicked");
+            //console.log("Patent select item clicked");
             //allSelectButtons.forEach(btn => btn.classList.remove('active'));
             populateList('patent', data);  // Populate with conference category
           });

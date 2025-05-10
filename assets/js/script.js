@@ -45,37 +45,18 @@ selectElements.forEach(select => {
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 const filterItems = document.querySelectorAll("[data-filter-item]");
 
-const filterFunc = function (selectedValue) {
+const filterFunc = function (selectedCategory) {
   for (let i = 0; i < filterItems.length; i++) {
-    if (selectedValue === "all") {
+    const categories = filterItems[i].dataset.category.toLowerCase().split(',').map(cat => cat.trim());
+
+    if (selectedCategory === "all") {
       filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
+    } else if (categories.includes(selectedCategory)) {
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
     }
   }
-
-  //reverse the numbering of the publications when journal or conference category is selected
-  if (selectedValue === "journal" || selectedValue === "conference"){
-    // Get the 'ol' element using its class
-    const ol = document.querySelector('.custom-counter');
-    const items = Array.from(ol.getElementsByTagName('li'));
-    
-    // Filter only active items (those with class 'active')
-    const activeItems = items.filter(item => item.classList.contains('active'));
-
-    //Reverse the numbering of the publication items
-    // Select all ordered lists with the class "custom-counter"
-    // const listItems = document.querySelectorAll('.custom-counter li');
-    const totalItems = activeItems.length;
-
-    // Loop through each <li> and set the reverse number
-    activeItems.forEach((li, index) => {
-        li.setAttribute('data-number', totalItems - index); // Set reverse numbering
-    });
-  }
-
 };
 
 // add event in all filter button items for large screen
