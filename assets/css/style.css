@@ -438,6 +438,10 @@ main {
   border-radius: 20px;
 }
 
+.my-image {
+  border-radius: 15px; /* You can adjust the radius */
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
